@@ -25,6 +25,14 @@ def main_function ():
             while q4 == False:
                 fourth = input ("How long does it take you to drive to w*rk, 20 mins or 67 hours?")
                 q4 = real_answer_machine ("20 mins", "67 hours", fourth)
+            if third == "YES" and fourth == "20 mins":
+                print ("You drive to your job saving tungsten cubes from drowning in pools")
+            elif third == "YES" and fourth == "67 hours":
+                print ("You drive for 67 hours to go put the fries in the bag lil bro")
+            elif third == "NO" and fourth == "20 mins":
+                print ("You drive 20 mins to get some chips and then bedrot all day")
+            elif third == "YES" and fourth == "67 hours":
+                print ("You drive for 67 hours untill your turn 41 and then you make 41 bands")
         elif second == "NO":
             print ("You decided not to have SigmaSteak eithier")
             first = "Cereal"
