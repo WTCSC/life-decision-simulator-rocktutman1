@@ -15,7 +15,7 @@ def main_function ():
         q1 = real_answer_machine ("SigmaSteak", "Cereal", first)
     if first == "SigmaSteak":
         while q2 == False:
-            second = input("Do you want to drink SkibidiSoup with your breakfeast, YES or NO? ")
+            second = input("Do you want to drink SkibidiSoup with your breakfast, YES or NO? ")
             q2 = real_answer_machine ("YES", "NO", second)
         if second == "YES":
             print ("After finishing breakfast you drink some still water and jamacian smile before you decide how to continue your morning")
@@ -32,7 +32,7 @@ def main_function ():
             elif third == "NO" and fourth == "20 mins":
                 print ("You drive 20 mins to get some chips and then bedrot all day")
             elif third == "YES" and fourth == "67 hours":
-                print ("You drive for 67 hours untill your turn 41 and then you make 41 bands")
+                print ("You drive for 67 hours until your turn 41 and then you make 41 bands")
         elif second == "NO":
             print ("You decided not to have SigmaSteak eithier")
             first = "Cereal"
@@ -45,14 +45,14 @@ def main_function ():
         if second == "NO":
             print("You decided not to go for a run so you just watch TV instead")
             third = input ("What do you do, watch Real Housewives of mangostein or Doomscroll? ")
-            if third == "watch Real Housewives of Mangostein" or "Doomscroll":
+            if third == "watch Real Housewives of Mangostein" or third == "Doomscroll":
                 print ("You wasted your entire morning and are now late to school!!")
                 while q4 == False:
                     fourth = input ("Do you still want to go to school, YES or NO? ")
                     q4 = real_answer_machine("YES", "NO", fourth)
                 if (fourth == "YES"):
                     print ("You go to school and are bored all day")
-                    print ("Finally getting home you go to bed, knowing that you'll have to try escpaing the matrix again tommrow")
+                    print ("Finally getting home you go to bed, knowing that you'll have to try escaping the matrix again tommrow")
                     main_function()
                 elif (fourth == "NO"):
                     print ("Knowing that none of your teachers drive a rari you dont go to school so you can escape the matrix and dropship from ali-baba")
@@ -88,7 +88,7 @@ def main_function ():
                     brainrot_score += 1
                 print (f"Your brainrot score is {brainrot_score} out of 5")
                 if brainrot_score >= 3:
-                    print ("Coungradulations, you are a true brainrot professor")
+                    print ("Congradulations, you are a true brainrot professor")
                 else:
                     print ("minus infinity aura, you are never recovering from this aura debt")
             elif third == "NO":
